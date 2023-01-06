@@ -1,0 +1,72 @@
+* {
+    color: black;
+    background: url(https://phonoteka.org/uploads/posts/2021-04/thumbs/1619293833_12-phonoteka_org-p-fon-dlya-detskoi-odezhdi-12.jpg);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+
+    
+}
+
+
+.header_bg {
+    height: 50vw;
+    max-height: 90vh;
+    background-image: url(https://bishkekvogue.ru/wp-content/uploads/2021/06/kid1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.card11 {
+    padding: 14px 16px;
+}
